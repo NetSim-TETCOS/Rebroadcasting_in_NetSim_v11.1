@@ -1,0 +1,37 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  aes.c
+  aes_run.c
+  Application.c
+c:\users\user\downloads\rebroadcasting_in_vanet_v11\code\application\application.c(751): warning C4013: 'encryptBlock' undefined; assuming extern returning int
+c:\users\user\downloads\rebroadcasting_in_vanet_v11\code\application\application.c(753): warning C4013: 'aes256' undefined; assuming extern returning int
+c:\users\user\downloads\rebroadcasting_in_vanet_v11\code\application\application.c(755): warning C4013: 'des' undefined; assuming extern returning int
+  BSM.c
+  CoAP.c
+  Database_FTP_Custom.c
+  des.c
+  des_run.c
+  Distribution.c
+  Emulation_application.c
+  Encryption.c
+  Multicast.c
+  RandomNumber.c
+  ReBroadcast.c
+  Generating Code...
+aes.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Application.lib(HTTP.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+aes.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\Dll\libApplication.lib and object ..\Dll\libApplication.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+Application.lib(HTTP.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(HTTP.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(Video.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(Video.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(Voice.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(Voice.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(P2P.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(P2P.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(Email.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(Email.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(ErlangCall.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(ErlangCall.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(libApplication.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(libApplication.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(App_Metrics.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(App_Metrics.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\ApplicationLib.pdb'; linking object as if no debug info
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\List.pdb'; linking object as if no debug info
+IP.lib(IPLib.obj) : warning LNK4099: PDB 'IPLib.pdb' was not found with 'IP.lib(IPLib.obj)' or at 'C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Dll\IPLib.pdb'; linking object as if no debug info
+  Application.vcxproj -> C:\Users\user\Downloads\Rebroadcasting_in_VANET_V11\Code\Application\..\Dll\libApplication.dll
